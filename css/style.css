@@ -1,3 +1,44 @@
 body {
-  background-color: pink;
+   width: 100%;
+  /* background-color: pink; */
+}
+
+/* CONTAINER */
+.container{
+  border: 1px solid black;
+  width:110%;
+}
+
+
+/* HEADER SECTION */
+#header {
+  background-color: #F9DCB6;
+  padding:20px;
+  height: 180px;
+}
+#header img {
+  float:left;
+  /* padding-top: -20px; */
+  height:150px;
+  border-radius: 10%;
+  border: 2px solid grey;
+
+}
+#header h1 {
+  line-height: 160px;
+  text-align: center;
+}
+/* GAME SECTION */
+.game-section{
+  background-color: #E5E5E5;
+  padding-top: 30px;
+}
+#about {
+  background-color: #88BA91;
+  margin-left:16px;
+  width:100%;
+
+}
+#about h2,h3,h4,p{
+  margin-left: 20px;
 }

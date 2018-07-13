@@ -13,6 +13,7 @@
 <body>
   <div class="container">
     <section id="header">
+      <img src="images/scorekeeper.png" alt="">
       <h1>Ping-Pong</h1>
     </section>
 
@@ -27,7 +28,7 @@
           <p>IP3 test for:</p>
           <p>Javascript</p>
         </div>
-        <div class="col-md-8" id="ping-pong">
+        <div class="col-md-7" id="ping-pong">
           <h2>Let's Play</h2>
           <h3>Rules:</h3>
           <p>Ping-pong will count up to your number from 1 with the following exceptions:</p>
@@ -36,11 +37,24 @@
             <li>Numbers divisible by 5 become "pong"</li>
             <li>Numbers divisible by 3 and 5 become "pingpong"</li>
           </ol>
+          <br>
+          <form class="form-inline">
+            <label for="number"><strong>Enter your number here:</strong></label>
+            <input type="text" class="form-contorol" id="number" placeholder="Enter number">
+            <input type="submit" class="btn btn-warning" value="Ping-Pong!">
+          </form>
+          <br>
+          <section id="output">
+            <div class="ping-output">
+              <ul class="ping-list">
+                <li>Lorem ipsum dolor sit amet, consectetur.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur.</li>
+              </ul>
+            </div>
+          </section>
         </div>
-        <br>
-        <form class="form-inline">
-          <label for="number">Enter your number here:</label>
-        </form>
+
       </div>
     </section>
   </div>
