@@ -73,6 +73,10 @@ body {
   margin-left: 16px;
   font-size: 30px;
 }
+#ping-pong label {
+  margin-left: 16px;
+  font-weight: 500;
+}
 
 form #number {
   padding: 9px;
