@@ -31,11 +31,18 @@ background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, F
 #header h1 {
   line-height: 160px;
   text-align: center;
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 60px;
 }
 /* GAME SECTION */
 .game-section{
   background-color: #E5E5E5;
   padding-top: 30px;
+  font-family: 'Cardo', serif;
+}
+.rules li {
+  font-family: 'Cardo', serif;
+  font-size: 20px;
 }
 #about {
   background-color: #88BA91;
@@ -46,6 +53,22 @@ background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, F
 #about h2,h3,h4,p{
   margin-left: 20px;
 }
-input #number {
-  padding:15px;
+form #number {
+  padding:9px;
+  border-radius: 6px;
+  text-align: center;
+  margin-left:8px;
+  font-size:16px;
+  width:220px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+}
+form .btn {
+  border:none;
+}
+ul .ping-list {
+  list-style-type: square;
 }
