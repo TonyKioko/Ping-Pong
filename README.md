@@ -1,7 +1,7 @@
-# Ping-Pong
+# Ping-Pong Numbers Game
 #### Ping-Pong created as an Independent Project at the end of Week Three, 13/07/2018
 #### By **Tony Kioko Munywoki**
-## Description
+## Description and Specs
 Ping-Pong is web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
 
 * Numbers divisible by 3 are replaced with "ping"
@@ -22,3 +22,7 @@ Ping-Pong is web application that takes a number from a user and returns a range
 * Cascading Style Sheets
 * Jquery Library
 * Bootstrap
+## Support and contact details
+Contact me if you run into issues or have any questions. Please feel free to point out areas that can improved. Contact @ tonykioko384@gmail.com
+### License
+Thiss project is licensed under the MIT Open Source license,Copyright (c) 2018 **Tony Kioko**

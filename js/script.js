@@ -24,7 +24,7 @@ $(document).ready(function(){
     // alert("submitted")
 		$("ul.ping-list").empty();
 		var number=parseInt($("input#number").val());
-    alert(number)
+    // alert(number)
 		for(var i=1; i<=number; i++){
 			$("ul.ping-list").append("<li>"+pingPong(i)+"</li>");
 		}
