@@ -9,7 +9,7 @@ Ping-Pong is web application that takes a number from a user and returns a range
 * Numbers divisible by 15 are replaced with "pingpong"
 
 ### Live Link ###
-
+https://tonykioko.github.io/Ping-Pong/
 ## Setup/Installation Requirements.
 * Requires no special Setup /Installation
 * Can only accessed with devices connected to the internet
@@ -25,4 +25,4 @@ Ping-Pong is web application that takes a number from a user and returns a range
 ## Support and contact details
 Contact me if you run into issues or have any questions. Please feel free to point out areas that can improved. Contact @ tonykioko384@gmail.com
 ### License
-Thiss project is licensed under the MIT Open Source license,Copyright (c) 2018 **Tony Kioko**
+This project is licensed under the MIT Open Source license,Copyright (c) 2018 **Tony Kioko**
