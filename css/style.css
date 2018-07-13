@@ -39,6 +39,7 @@ background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, F
   background-color: #E5E5E5;
   padding-top: 30px;
   font-family: 'Cardo', serif;
+  padding-left:16px;
 }
 .rules li {
   font-family: 'Cardo', serif;
@@ -55,6 +56,10 @@ background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, F
 }
 #about h2,h3,h4,p{
   margin-left: 20px;
+}
+#ping-pong h2 {
+  margin-left: 16px;
+  font-size: 30px;
 }
 form #number {
   padding:9px;
