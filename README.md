@@ -6,7 +6,7 @@ Ping-Pong is web application that takes a number from a user and returns a range
 
 * Numbers divisible by 3 are replaced with "ping"
 * Numbers divisible by 5 are replaced with "pong"
-* Numbers divisible by 15 are replaced with "pingpong"
+* Numbers divisible by 3 and 5 are replaced with "pingpong"
 ### Example
 >If you use the number 15 the output will be as follows:
 >
