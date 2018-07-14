@@ -1,11 +1,15 @@
 body {
   width: 100%;
-  /* background-color: pink; */
-  background: #FC466B;
+  background-image: url(../images/abc.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-color: #61732D;  */
+  /*background: #FC466B;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
+  /*background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3F5EFB, #FC466B);
+  /*background: linear-gradient(to right, #3F5EFB, #FC466B);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-size: 20px;
 }
@@ -59,9 +63,9 @@ body {
 #about {
   background-color: #88BA91;
   /* margin-left: 16px; */
-  width: 100%;
+  width: 97%;
   font-size: 20px;
-  height: 400px;
+  height: 500px;
   padding-top: 8px;
 }
 
@@ -75,7 +79,6 @@ body {
 }
 #ping-pong label {
   margin-left: 16px;
-  font-weight: 500;
 }
 
 form #number {
