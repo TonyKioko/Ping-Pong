@@ -20,7 +20,7 @@ body {
 .container {
   /* border: 4px solid black; */
   width: 110%;
-  margin:12px auto;
+  margin: 12px auto;
   border-radius: 10px;
 }
 
@@ -78,6 +78,7 @@ body {
   margin-left: 16px;
   font-size: 30px;
 }
+
 #ping-pong label {
   margin-left: 16px;
 }
@@ -91,17 +92,10 @@ form #number {
   width: 220px;
   border: none;
   background-color: #fff;
-  margin-right:8px;
+  margin-right: 8px;
 }
 
 form .btn {
   border: none;
   background-color: #FED9B9;
-}
-
-ul .ping-list {
-  list-style-type: square;
-}
-li {
-
 }
