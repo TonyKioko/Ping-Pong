@@ -1,13 +1,13 @@
+
 /** --- USER INTERFACE LOGIC --**/
+
 $(document).ready(function() {
-  $("form#ping-form").submit(function(event) {
+  $("form#pingpong-form").submit(function(event) {
     event.preventDefault();
-    // alert("submitted")
-    $("ul.ping-list").empty();
+    $("ul.ping-items").empty();
     var number = parseInt($("input#number").val());
-    // alert(number)
-    for (var i = 1; i <= number; i++) {
-      $("ul.ping-list").append("<li>" + pingPong(i) + "</li>");
+    for (var i = 1; i <= number; i += 1) {
+      $("ul.ping-items").append("<li>" + pingPonged(i) + "</li>");
     }
   });
 });
@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 /** --- BACKEND LOGIC --**/
 
-var pingPong = function(i) {
+var pingPonged = function(i) {
 
   if (i % 15 === 0) {
     return "pingpong";
