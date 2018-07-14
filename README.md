@@ -7,13 +7,48 @@ Ping-Pong is web application that takes a number from a user and returns a range
 * Numbers divisible by 3 are replaced with "ping"
 * Numbers divisible by 5 are replaced with "pong"
 * Numbers divisible by 15 are replaced with "pingpong"
+### Example
+>If you use the number 15 the output will be as follows:
+>
+>1
+>
+>2
+>
+>ping
+>
+>4
+>
+>pong
+>
+>ping
+>
+>7
+>
+>8
+>
+>ping
+>
+>pong
+>
+>11
+>
+>ping
+>
+>13
+>
+>14
+>
+>pingpong
+>
+>---------------------------
+>
 
 ### Live Link ###
 https://tonykioko.github.io/Ping-Pong/
 ## Setup/Installation Requirements.
 * Requires no special Setup /Installation
 * Can only accessed with devices connected to the internet
-* Open the GitHub pages link into your favorite browser to access the website
+* Open the GitHub pages link in your favorite browser to access the website
 
 ## Technology used ##
 
