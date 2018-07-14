@@ -1,9 +1,10 @@
 body {
   width: 100%;
-  background-image: url(../images/abc.jpg);
+  background: linear-gradient(to right, #FFD6BB, #E4E4E4);
+  /* background-image: url(../images/abc.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   /* background-color: #61732D;  */
   /*background: #FC466B;
   /* fallback for old browsers */
